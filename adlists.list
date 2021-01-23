@@ -1,6 +1,6 @@
-https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts
+https://raw.githubusercontent.com/sauloal/pi-hole-FTL/master/hosts
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
-https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts
-https://raw.githubusercontent.com/sauloal/pi-hole-FTL/master/hosts
+https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
