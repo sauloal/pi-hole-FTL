@@ -1,6 +1,7 @@
-po.st
 browser.pipe.aria.microsoft.com
-www.odwebp.svc.ms
-www.googleadservices.com
-video-downloads.googleusercontent.com
 mobile.pipe.aria.microsoft.com
+po.st
+s.youtube.com
+video-downloads.googleusercontent.com
+www.googleadservices.com
+www.odwebp.svc.ms
