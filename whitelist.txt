@@ -1,8 +1,9 @@
 browser.pipe.aria.microsoft.com
+clients3.google.com
 mobile.pipe.aria.microsoft.com
+outlook.live.com
 po.st
 s.youtube.com
 twitter.com
 video-downloads.googleusercontent.com
-www.googleadservices.com
 www.odwebp.svc.ms
