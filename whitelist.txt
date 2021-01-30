@@ -2,6 +2,7 @@ browser.pipe.aria.microsoft.com
 mobile.pipe.aria.microsoft.com
 po.st
 s.youtube.com
+twitter.com
 video-downloads.googleusercontent.com
 www.googleadservices.com
 www.odwebp.svc.ms
