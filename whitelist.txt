@@ -1,5 +1,4 @@
 browser.pipe.aria.microsoft.com
-clients3.google.com
 mobile.pipe.aria.microsoft.com
 outlook.live.com
 po.st

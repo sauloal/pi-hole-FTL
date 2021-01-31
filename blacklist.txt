@@ -1,6 +1,7 @@
 11.client-channel.google.com
 ad4m.at
 addclick.g.doubleclick.net
+amazon-adsystem.com
 arc.msn.com
 beacons3.gvt2.com
 clients4.google.com
@@ -28,3 +29,4 @@ v6.dblks.net
 www.aaxdetect.com
 www.bing.com
 www.playsdom.com
+zdbb.net
