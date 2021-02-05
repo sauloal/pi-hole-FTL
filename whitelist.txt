@@ -1,4 +1,5 @@
 browser.pipe.aria.microsoft.com
+channel9.msdn.com
 mobile.pipe.aria.microsoft.com
 outlook.live.com
 po.st
