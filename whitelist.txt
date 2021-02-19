@@ -1,7 +1,10 @@
 browser.pipe.aria.microsoft.com
 channel9.msdn.com
+i.ebayimg.com
+m.youtube.com
 mobile.pipe.aria.microsoft.com
 outlook.live.com
+phys.org
 po.st
 s.youtube.com
 twitter.com
