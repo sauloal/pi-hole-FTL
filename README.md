@@ -15,3 +15,9 @@ Dump manullay generated list of blocked host to `hosts` file to be added to grav
 ```sh
 bash db2hosts.sh
 ```
+
+## Update
+
+```sh
+pihole -up
+```
