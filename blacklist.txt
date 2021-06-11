@@ -3,6 +3,7 @@ ad4m.at
 addclick.g.doubleclick.net
 amazon-adsystem.com
 arc.msn.com
+billing.prod.fitbod.me
 clients4.google.com
 cn.ntp.org.cn
 content.lemonpi.io

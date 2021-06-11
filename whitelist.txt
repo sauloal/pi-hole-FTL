@@ -1,6 +1,7 @@
 browser.pipe.aria.microsoft.com
 channel9.msdn.com
 code.jquery.com
+github.com
 hwcdn.libsyn.com
 i.ebayimg.com
 m.youtube.com
@@ -10,6 +11,7 @@ northeurope1.pushnp.svc.ms
 outlook.live.com
 phys.org
 po.st
+pushx.reolink.com
 s.youtube.com
 telemetry.malwarebytes.com
 twitter.com
