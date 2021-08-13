@@ -13,6 +13,7 @@ phys.org
 po.st
 pushx.reolink.com
 s.youtube.com
+stackoverflow.com
 telemetry.malwarebytes.com
 twitter.com
 video-downloads.googleusercontent.com
