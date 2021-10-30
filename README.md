@@ -21,3 +21,9 @@ bash db2hosts.sh
 ```sh
 pihole -up
 ```
+
+## Fix Rate Limit
+
+```sh
+echo -e "\nRATE_LIMIT=0/0\n" | sudo tee -a /etc/pihole/pihole-FTL.conf
+````
