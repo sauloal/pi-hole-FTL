@@ -2,10 +2,12 @@ admarkt.marktplaats.nl
 browser.pipe.aria.microsoft.com
 channel9.msdn.com
 code.jquery.com
+dcs.megaphone.fm
 github.com
 hwcdn.libsyn.com
 i.ebayimg.com
 m.youtube.com
+mail.yahoo.com
 mobile.pipe.aria.microsoft.com
 mobile.twitter.com
 northeurope1.pushnp.svc.ms
@@ -16,7 +18,9 @@ pushx.reolink.com
 s.youtube.com
 stackoverflow.com
 telemetry.malwarebytes.com
+tweakers.net
 twitter.com
 video-downloads.googleusercontent.com
 www.express.co.uk
 www.odwebp.svc.ms
+youtube.com
