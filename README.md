@@ -69,3 +69,34 @@ sudo ufw allow http
 sudo ufw enable
 sudo ufw status numbered
 ```
+
+## log2ram
+
+```sh
+git clone https://github.com/azlux/log2ram
+cd log2ram
+chmod +x install.sh && sudo ./install.sh
+sudo nano /etc/log2ram.conf
+```
+
+`cat /etc/log2ram.conf  | grep -v "#"`
+
+```ini
+
+SIZE=100M
+MAIL=false
+PATH_DISK="/var/log"
+ZL2R=true
+COMP_ALG=lz4
+LOG_DISK_SIZE=400M
+```
+
+## Swap
+
+```sh
+sudo swapoff --all
+
+sudo apt-get remove dphys-swapfile
+
+sudo apt-get autoremove
+```
