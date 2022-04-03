@@ -3,6 +3,7 @@ browser.pipe.aria.microsoft.com
 channel9.msdn.com
 code.jquery.com
 dcs.megaphone.fm
+elqtrk.intel.com
 github.com
 hwcdn.libsyn.com
 i.ebayimg.com
@@ -14,13 +15,18 @@ northeurope1.pushnp.svc.ms
 outlook.live.com
 phys.org
 po.st
+ptbtime3.ptb.de
 pushx.reolink.com
+realpython.com
 s.youtube.com
+sourceforge.net
 stackoverflow.com
 telemetry.malwarebytes.com
 tweakers.net
 twitter.com
 video-downloads.googleusercontent.com
 www.express.co.uk
+www.googleadservices.com
 www.odwebp.svc.ms
+www91.intel.com
 youtube.com

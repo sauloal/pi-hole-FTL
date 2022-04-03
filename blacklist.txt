@@ -32,7 +32,6 @@ opt.objectiveportal.com
 pghub.io
 pmp.mxptint.net
 protected-by.clarium.io
-ptbtime3.ptb.de
 pub.headerlift.com
 s.w.org
 sanalytics.box.com
