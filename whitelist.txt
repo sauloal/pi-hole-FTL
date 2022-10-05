@@ -1,5 +1,6 @@
 admarkt.marktplaats.nl
 browser.pipe.aria.microsoft.com
+cdn-eu.dynamicyield.com
 channel9.msdn.com
 code.jquery.com
 dcs.megaphone.fm
@@ -7,6 +8,7 @@ elqtrk.intel.com
 github.com
 hwcdn.libsyn.com
 i.ebayimg.com
+login.microsoftonline.com
 m.youtube.com
 mail.yahoo.com
 mobile.pipe.aria.microsoft.com
@@ -15,6 +17,7 @@ northeurope1.pushnp.svc.ms
 outlook.live.com
 phys.org
 po.st
+prdt.illumina.com
 ptbtime3.ptb.de
 pushx.reolink.com
 realpython.com

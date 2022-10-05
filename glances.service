@@ -1,0 +1,12 @@
+[Unit]
+Description=Glances
+Documentation=man:glances(1)
+Documentation="https://github.com/nicolargo/glances https://www.how2shout.com/linux/install-and-use-glances-to-monitor-ubuntu-20-04-server-or-desktop/"
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/glances --webserver --time 5 --bind 0.0.0.0 --port 61208 --disable-webui -u pihole
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
