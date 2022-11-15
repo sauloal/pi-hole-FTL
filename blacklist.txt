@@ -8,7 +8,6 @@ arc.msn.com
 bid3.videostep.com
 billing.prod.fitbod.me
 bonfire.spklw.com
-cdn.cookielaw.org
 cn.ntp.org.cn
 content.lemonpi.io
 cs.admanmedia.com

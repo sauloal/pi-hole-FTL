@@ -1,6 +1,7 @@
 admarkt.marktplaats.nl
 browser.pipe.aria.microsoft.com
 cdn-eu.dynamicyield.com
+cdn.cookielaw.org
 channel9.msdn.com
 code.jquery.com
 dcs.megaphone.fm
@@ -12,9 +13,12 @@ login.microsoftonline.com
 m.youtube.com
 mail.yahoo.com
 mobile.pipe.aria.microsoft.com
+mobile.smartadserver.com
 mobile.twitter.com
+mobileconfig.sascdn.com
 northeurope1.pushnp.svc.ms
 outlook.live.com
+partnerprogramma.bol.com
 phys.org
 po.st
 prdt.illumina.com
@@ -22,12 +26,15 @@ ptbtime3.ptb.de
 pushx.reolink.com
 realpython.com
 s.youtube.com
+sdk.fra-01.braze.eu
 sourceforge.net
 stackoverflow.com
 telemetry.malwarebytes.com
 tweakers.net
 twitter.com
+unraid-dl.sfo2.cdn.digitaloceanspaces.com
 video-downloads.googleusercontent.com
+westeurope1-0.pushnp.svc.ms
 www.express.co.uk
 www.googleadservices.com
 www.odwebp.svc.ms
