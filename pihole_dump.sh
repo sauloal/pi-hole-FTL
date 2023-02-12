@@ -2,23 +2,25 @@
 
 set -xeu
 
-rm pihole_whitelist.txt   || true
-rm pihole_blacklist.txt   || true
-rm pihole_regex.txt       || true
-rm pihole_white-regex.txt || true
-rm pihole_wild.txt        || true
-rm pihole_white-wild.txt  || true
+rm dump_blacklist.txt          || true
+rm dump_blacklist-regex.txt    || true
+rm dump_blacklist-wildcard.txt || true
+
+rm dump_whitelist.txt          || true
+rm dump_whitelist-regex.txt    || true
+rm dump_whitelist-wildcard.txt || true
 
 
-pihole --whitelist   --list | awk '{print $2}' | tail -n +2 | sort --unique > pihole_whitelist.txt
+pihole --blacklist   --list | awk '{print $2}' | tail -n +2 | sort --unique > dump_blacklist.txt
 
-pihole --blacklist   --list | awk '{print $2}' | tail -n +2 | sort --unique > pihole_blacklist.txt
+pihole --regex       --list | awk '{print $2}' | tail -n +2 | sort --unique > dump_blacklist-regex.txt
 
-pihole --regex       --list | awk '{print $2}' | tail -n +2 | sort --unique > pihole_regex.txt
+pihole --wild        --list | awk '{print $2}' | tail -n +2 | sort --unique > dump_blacklist-wildcard.txt
 
-pihole --white-regex --list | awk '{print $2}' | tail -n +2 | sort --unique > pihole_white-regex.txt
 
-pihole --wild        --list | awk '{print $2}' | tail -n +2 | sort --unique > pihole_wild.txt
+pihole --whitelist   --list | awk '{print $2}' | tail -n +2 | sort --unique > dump_whitelist.txt
 
-pihole --white-wild  --list | awk '{print $2}' | tail -n +2 | sort --unique > pihole_white-wild.txt
+pihole --white-regex --list | awk '{print $2}' | tail -n +2 | sort --unique > dump_whitelist-regex.txt
+
+pihole --white-wild  --list | awk '{print $2}' | tail -n +2 | sort --unique > dump_whitelist-wildcard.txt
 
