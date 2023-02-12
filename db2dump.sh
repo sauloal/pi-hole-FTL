@@ -20,11 +20,11 @@ rm db_adlists-disabled.list         || true
 rm db_gravity.list                  || true
 
 #https://docs.pi-hole.net/database/gravity/#domain-tables-domainlist
-sqlite3 /etc/pihole/gravity.db 'SELECT domain  FROM domainlist WHERE type=0 AND enabled=1 ORDER BY domain' | sort --unique > db_whitelist-exact-enabled.txt
-sqlite3 /etc/pihole/gravity.db 'SELECT domain  FROM domainlist WHERE type=0 AND enabled=0 ORDER BY domain' | sort --unique > db_whitelist-exact-disabled.txt
+sqlite3 /etc/pihole/gravity.db 'SELECT domain  FROM domainlist WHERE type=0 AND enabled=1 ORDER BY domain' | sort --unique > db_whitelist-exact-enabled.list
+sqlite3 /etc/pihole/gravity.db 'SELECT domain  FROM domainlist WHERE type=0 AND enabled=0 ORDER BY domain' | sort --unique > db_whitelist-exact-disabled.list
 
-sqlite3 /etc/pihole/gravity.db 'SELECT domain  FROM domainlist WHERE type=1 AND enabled=1 ORDER BY domain' | sort --unique > db_blacklist-exact-enabled.txt
-sqlite3 /etc/pihole/gravity.db 'SELECT domain  FROM domainlist WHERE type=1 AND enabled=0 ORDER BY domain' | sort --unique > db_blacklist-exact-disabled.txt
+sqlite3 /etc/pihole/gravity.db 'SELECT domain  FROM domainlist WHERE type=1 AND enabled=1 ORDER BY domain' | sort --unique > db_blacklist-exact-enabled.list
+sqlite3 /etc/pihole/gravity.db 'SELECT domain  FROM domainlist WHERE type=1 AND enabled=0 ORDER BY domain' | sort --unique > db_blacklist-exact-disabled.list
 
 sqlite3 /etc/pihole/gravity.db 'SELECT domain  FROM domainlist WHERE type=2 AND enabled=1 ORDER BY domain' | sort --unique > db_whitelist-regex-enabled.list
 sqlite3 /etc/pihole/gravity.db 'SELECT domain  FROM domainlist WHERE type=2 AND enabled=0 ORDER BY domain' | sort --unique > db_whitelist-regex-disabled.list
