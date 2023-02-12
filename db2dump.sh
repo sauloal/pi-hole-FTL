@@ -2,6 +2,12 @@
 
 set -xeu
 
+rm whitelist.txt || true
+rm blacklist.txt || true
+rm regex.list    || true
+rm adlists.list  || true
+rm gravity.list  || true
+
 sqlite3 /etc/pihole/gravity.db 'SELECT domain  FROM domainlist WHERE type=0 AND enabled=1 ORDER BY domain' | uniq > whitelist.txt
 sqlite3 /etc/pihole/gravity.db 'SELECT domain  FROM domainlist WHERE type=1 AND enabled=1 ORDER BY domain' | uniq > blacklist.txt
 sqlite3 /etc/pihole/gravity.db 'SELECT domain  FROM domainlist WHERE type=3 AND enabled=1 ORDER BY domain' | uniq > regex.list

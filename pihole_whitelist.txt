@@ -1,4 +1,5 @@
 admarkt.marktplaats.nl
+bing.com
 browser.pipe.aria.microsoft.com
 cdn.cookielaw.org
 cdn-eu.dynamicyield.com
@@ -8,6 +9,7 @@ code.jquery.com
 dcs.megaphone.fm
 elqtrk.intel.com
 github.com
+google.com
 hwcdn.libsyn.com
 i.ebayimg.com
 login.microsoftonline.com
@@ -17,6 +19,8 @@ mobile.pipe.aria.microsoft.com
 mobile.smartadserver.com
 mobile.twitter.com
 m.youtube.com
+northeurope1-0.pushfp.svc.ms
+northeurope1-1.pushfp.svc.ms
 northeurope1.pushnp.svc.ms
 outlook.live.com
 partnerprogramma.bol.com
@@ -35,9 +39,12 @@ tweakers.net
 twitter.com
 unraid-dl.sfo2.cdn.digitaloceanspaces.com
 video-downloads.googleusercontent.com
+vimeo.com
 westeurope1-0.pushnp.svc.ms
 www91.intel.com
+www.bing.com
 www.express.co.uk
 www.googleadservices.com
+www.nederlandseloterij.nl
 www.odwebp.svc.ms
 youtube.com
