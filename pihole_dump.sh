@@ -10,15 +10,15 @@ rm pihole_wild.txt        || true
 rm pihole_white-wild.txt  || true
 
 
-pihole -w -l                 | awk '{print $2}' | tail -n +2 | sort > pihole_whitelist.txt
+pihole --whitelist   --list | awk '{print $2}' | tail -n +2 | sort --unique > pihole_whitelist.txt
 
-pihole -b -l                 | awk '{print $2}' | tail -n +2 | sort > pihole_blacklist.txt
+pihole --blacklist   --list | awk '{print $2}' | tail -n +2 | sort --unique > pihole_blacklist.txt
 
-pihole  --regex --list       | awk '{print $2}' | tail -n +2 | sort > pihole_regex.txt
+pihole --regex       --list | awk '{print $2}' | tail -n +2 | sort --unique > pihole_regex.txt
 
-pihole  --white-regex --list | awk '{print $2}' | tail -n +2 | sort > pihole_white-regex.txt
+pihole --white-regex --list | awk '{print $2}' | tail -n +2 | sort --unique > pihole_white-regex.txt
 
-pihole  --wild --list        | awk '{print $2}' | tail -n +2 | sort > pihole_wild.txt
+pihole --wild        --list | awk '{print $2}' | tail -n +2 | sort --unique > pihole_wild.txt
 
-pihole  --white-wild --list  | awk '{print $2}' | tail -n +2 | sort > pihole_white-wild.txt
+pihole --white-wild  --list | awk '{print $2}' | tail -n +2 | sort --unique > pihole_white-wild.txt
 
