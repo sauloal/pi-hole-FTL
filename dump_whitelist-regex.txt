@@ -1,3 +1,4 @@
 (\.|^)azureedge\.net$
 (\.|^)microsoft\.com$
+(\.|^)pushfp\.svc\.ms$
 (\.|^)studios\.ms$
